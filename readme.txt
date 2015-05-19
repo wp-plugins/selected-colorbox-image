@@ -19,9 +19,9 @@ Follow these steps to install Selected Colorbox Image plugins to your wordpress 
 4. Go there and select whatever images you want to show in colorbox popup
 
 == Screenshots ==
-1. Admin grid of image list with ajax paging style.
-2. Colorbox popup on single post page.
-3. Normal view of image on single post page or static page.
+1. screenshot-1.png
+2. screenshot-2.png
+3. screenshot-3.png
 
 == Changelog ==
 This is the first ever release of Selected Colorbox Image () v1.0.0.
