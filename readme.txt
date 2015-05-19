@@ -6,7 +6,7 @@ Tested up to: 4.2.2
 License: GPL2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
-Select images just with a single click to show theme in colorbox popup from admin ajax grid.
+Select images just with a single click to show them in colorbox popup from admin ajax grid.
 
 == Description ==
 Selected Colorbox Image plugin allow you to select one or more or all images to show it/theme in Colorbox popup. Selected Colorbox  Image provide you datatable based image list with title, image and ID list, just select images you want to display in Colorbox popup and that\'s all.
