@@ -173,17 +173,17 @@ function allimg_addfooter_script() {
     if(!is_single() && !is_page())
         return;
     $htm = '<script type="text/javascript">';
-    $allimgs = allimg_having_thickbox();
+    $allimgs = allimg_having_colorbox();
     foreach($allimgs as $img)
     {
-        $htm .='jQuery("img[src=\''.$img->guid.'\']").unwrap().wrap("<a href=\''.$img->guid.'\'   class=\'thickbox\'></a>");'."\n";
+        $htm .='jQuery("img[src=\''.$img->guid.'\']").unwrap().wrap("<a href=\''.$img->guid.'\'   class=\'colorbox\'></a>");'."\n";
     }
-    $htm .='jQuery(\'a.thickbox\').colorbox({rel:\'gal\',maxWidth:\'970px\'});</script>';
+    $htm .='jQuery(\'a.colorbox\').colorbox({rel:\'gal\',maxWidth:\'970px\'});</script>';
     echo $htm;
 }
 
     add_action('wp_footer', 'allimg_addfooter_script');
-function allimg_having_thickbox()
+function allimg_having_colorbox()
 {
     global $wpdb;
     $sql = "SELECT p.guid FROM `".$wpdb->prefix."posts` p
